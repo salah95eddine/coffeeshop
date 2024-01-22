@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+}
+.bg{
+    background-image: url(dccl--frontend-simple-coffee-listing/dccl--frontend-simple-coffee-listing/bg-cafe.jpg);
+    height: 310px;
+    background-size: contain;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin-top: -100px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.item img{
+    width: 340px;
+    border-radius: 10px;
+}
+.item{
+    width: 340px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.stars img{
+    width: 20px;
+    
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.product_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: gray;
+}
+.content>.top>p{
+    color: gray;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding:6px ;
+    border-radius: 10px;
+}
+.btn a:hover{
+    background-color: gray;
+    
+}
+.product_title p{
+    background-color: greenyellow;
+    padding: 4px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.top{
+    background-image: url(dccl--frontend-simple-coffee-listing/dccl--frontend-simple-coffee-listing/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width: 600px){
+    .content>.top>p{
+        display: none;
+    }
+  }
